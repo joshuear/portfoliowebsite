@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+}
+
+#nav-header {
+    background-color: hsl(0, 0%, 35%);
+    color: hsl(0, 0%, 100%);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+a {
+    padding: 10px;
+    margin: 0px 75px 0px 10px; 
+    border-radius: 15%;
+}
+a:link {
+    text-decoration: none;
+    color: hsl(195, 53%, 79%);
+}
+a:visited {
+    text-decoration: none;
+    color: hsl(195, 53%, 79%);
+}
+a:hover {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 20%);
+}
+a:active {
+    text-decoration: none;
+    color:hsl(195, 53%, 79%);
+}
+#bottom-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
