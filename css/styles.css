@@ -1,3 +1,4 @@
+
 body {
     font-family: 'Mulish', sans-serif;
     margin: 0;
@@ -5,7 +6,7 @@ body {
 #nav-header {
     background-color: hsl(0, 0%, 30%);
     color: hsl(0, 0%, 100%);
-    height: 100px;
+    height: 15%;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -44,8 +45,8 @@ h1 {
     padding-left: 75px;
 }
 
-main{
-    height: 650px;
+#home {
+    height: 50%;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -56,19 +57,17 @@ main{
     align-items: center;
     justify-content: center;
     width: 25%;
-    height: 90%;
+    height: 50%;
     background-color: hsl(0, 0%, 30%);
     color: hsl(0, 0%, 100%);
-    text-align: left;
+    text-align: center;
     border-radius: 15px;
     padding: 20px;
     margin-right: 100px;
 }
-h2{
+#heading {
     font-size: 5rem;
-    text-align: right;
     align-self: last center;
-    margin-left: 300px;
     letter-spacing: 25px;
 }
 #me {
@@ -80,4 +79,38 @@ footer{
     background-color: hsl(0, 0%, 0%);
     text-align: center;
     height: 100px;
+}
+ #icon {
+    height: 40px;
+    padding-top: 10px;
+ }
+ #skills {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: hsl(0, 0%, 30%);
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+}
+#heading-two {
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 20px;
+}
+#skills p {
+    text-align: center;
+}
+#projects {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 15px;
+}
+.project-list {
+    width: 40%;
+    padding: 20px;
+}
+#project-right {
+    background-color: hsl(0, 0%, 30%);
+    color: hsl(0, 0%, 100%);
 }
