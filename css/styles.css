@@ -1,7 +1,13 @@
 
+* {
+    box-sizing: border-box;
+}
 body {
     font-family: 'Mulish', sans-serif;
     margin: 0;
+}
+main {
+    height: 32rem;
 }
 #nav-header {
     background-color: hsl(0, 0%, 30%);
@@ -46,10 +52,10 @@ h1 {
 }
 
 #home {
-    height: 50%;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding-top: 20px;
 }
 #about {
     display: flex;
@@ -75,15 +81,12 @@ h1 {
     width: auto;
     
 }
-footer{
-    background-color: hsl(0, 0%, 0%);
-    text-align: center;
-    height: 100px;
-}
+
  #icon {
     height: 40px;
-    padding-top: 10px;
+    padding-top: 15px;
  }
+
  #skills {
     display: flex;
     align-items: center;
@@ -91,6 +94,7 @@ footer{
     background-color: hsl(0, 0%, 30%);
     color: hsl(0, 0%, 100%);
     text-align: center;
+    margin-top: 1.6rem;
 }
 #heading-two {
     text-align: center;
@@ -108,9 +112,33 @@ footer{
 }
 .project-list {
     width: 40%;
-    padding: 20px;
+    padding: 25px;
 }
 #project-right {
     background-color: hsl(0, 0%, 30%);
     color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+}
+footer{
+    background-color: hsl(0, 0%, 0%);
+    text-align: center;
+    height: 100px;
+}
+#bottom-nav {
+    padding-top: 35px;
+}
+.contact {
+    background-color: hsl(0, 0%, 30%);
+    text-align: center;
+    border-radius: 50%;
+    padding: 30px;
+}
+#contact-sections {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: hsl(0, 0%, 100%);
+}
+#contact-icon{
+    height: 50px;
 }
