@@ -131,7 +131,7 @@ footer{
     background-color: hsl(0, 0%, 30%);
     text-align: center;
     border-radius: 50%;
-    padding: 30px;
+    padding: 30px 40px 30px 40px;
 }
 #contact-sections {
     display: flex;
@@ -141,4 +141,11 @@ footer{
 }
 #contact-icon{
     height: 50px;
+}
+#contact-topper {
+    text-align: center;
+}
+#contact-topper h2 {
+    letter-spacing: 25px;
+    font-size: 3rem;
 }
